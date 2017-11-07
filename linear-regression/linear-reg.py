@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from math import sqrt
 
 # import the dataset
-dataframe = pd.read_csv('dataset1.txt', header=None)
+dataframe = pd.read_csv('dataset-lin-reg.txt', header=None)
 x_values = dataframe[0].reshape(len(dataframe[0]), 1)
 y_values = dataframe[1]
 
